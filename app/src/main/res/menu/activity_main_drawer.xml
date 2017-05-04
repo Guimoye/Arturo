@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inventario"
+            android:icon="@drawable/ic_inventario"
+            android:title="Inventario" />
+        <item
+            android:id="@+id/nav_despacho"
+            android:icon="@drawable/ic_despacho"
+            android:title="Despacho" />
+
+        <item
+            android:id="@+id/nav_materiales"
+            android:icon="@drawable/ic_materiales"
+            android:title="Materiales" />
+
+        <item
+            android:id="@+id/nav_producto"
+            android:icon="@drawable/ic_producto"
+            android:title="Producto" />
+
+        <item
+            android:id="@+id/nav_perdidas"
+            android:icon="@drawable/ic_perdida"
+            android:title="Perdidas" />
+
+        <item
+            android:id="@+id/nav_ubicacion"
+            android:icon="@drawable/ic_ubicame"
+            android:title="Ubicacion" />
+
+        <item
+            android:id="@+id/nav_reportes"
+            android:icon="@drawable/ic_reportee"
+            android:title="Reportes" />
+
+        <item
+            android:id="@+id/nav_usuarios"
+            android:icon="@drawable/ic_usuario"
+            android:title="Usuarios" />
+
+        <item
+            android:id="@+id/nav_mensaje"
+            android:icon="@drawable/ic_mensaje"
+            android:title="Mensaje" />
+
+        <item
+            android:id="@+id/nav_cerrar"
+            android:icon="@drawable/ic_cerrar"
+            android:title="Cerrar Sesion" />
+
+    </group>
+    <!--
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item> -->
+
+</menu>
